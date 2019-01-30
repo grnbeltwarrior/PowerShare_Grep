@@ -195,7 +195,7 @@ function Invoke-PowershellGrep($file){
     Import-Module 'Z:\PowerSploit\Recon\PowerView.ps1'
 
     Write-Host "Powerview module imported." -ForegroundColor Yellow
-
+    # If using an older version of powerview, the below Invoke-Sharefinder line can be used. Comment out the foreach lines under the # OR comment.
     # Invoke-Sharefinder -HostList $HostList -CheckShareAccess |  %{ $_.Split(' ')[0]; } | Out-File -Encoding ascii -Append $ShareList
 
     # OR
