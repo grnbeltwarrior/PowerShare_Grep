@@ -5,6 +5,7 @@ Iterates through files found using the current credentials share permissions.
 
 Author: Gabriel Thompson (@grnbeltwarrior)
 Required Dependencies: Powerview.ps1 https://github.com/PowerShellMafia/PowerSploit/tree/master/Recon
+Required Dependencies: addsadministration (Powershell Module) https://docs.microsoft.com/en-us/powershell/module/addsadministration/?view=win10-ps
 Optional Dependencies: None
 
 .DESCRIPTION
